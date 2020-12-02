@@ -95,7 +95,7 @@ function crearHabitacion(num) {
 
     return habitacion;
 }
-
+//comentando algo
 function crear(anios, caja, numero) {
     while (anios.firstChild) {
         anios.removeChild(anios.firstChild);
