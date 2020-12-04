@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>Document</title>
 </head>
 
@@ -11,27 +12,37 @@
     <h1 class="text-center">Hoteles Cristo Alvarado</h1>
     <div id="formulario">
         <form>
-            <label for="hotel">Hotel</label>
+            <div id ="texto">
+                <label for="hotel">Hotel</label>
             <input type="text" id="hotel">
-            <label for="fecha">Entrada</label>
-            <input type="date" id="fecha">
-            <label for="noches">Número de noches</label>
-            <select id="noches"></select>
+            </div>
+            <div id="fecha">
+                <label for="fecha">Entrada</label>
+                <input type="date" id="fecha">
+            </div>
+            <div id="boxnoches">
+                <label for="noches">Número de noches</label>
+                <select id="noches"></select>
+            </div>
+            
             <div id="contenedor">
                 <label for="habhues">Habitaciones y Huéspedes</label>
                 <p id="habhues"></p>
-                <div id="ocultar">
-                    <div id="habitaciones">
-
-                    </div>
-                </div>
+                
                 
             </div>
-
+            
         </form>
-
+        <div id="boton">
+            <button type="submit" id="buscar">Buscar</button>
+        </div>
+        
     </div>
-    <button type="submit" id="buscar">Buscar</button>
+    <div id="ocultar">
+        <div id="habitaciones">
+
+        </div>
+    </div>
 </body>
 <script src="/js/javascript.js"></script>
 
