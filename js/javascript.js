@@ -157,7 +157,7 @@ function aniadirHabitacion() {
     var cuantas = document.getElementById("habitaciones").querySelectorAll(".habitacion").length;
     var borrar = document.createElement("div");
     borrar.addEventListener("click", borrarHabitacion);
-    borrar.textContent = "borrar habitacion";
+    borrar.innerHTML = "&#10006";
     if (cuantas < 4) {
         var p = crearHabitacion(cuantas + 1);
         p.classList.add("elihabitacion");
@@ -175,8 +175,7 @@ function borrarHabitacion(e) {
     for (let i = 2; i < (repintar.length + 2); i++) {
         var linea = repintar[i - 2];
         linea.firstChild.textContent = i + " Habitación"
-    }
-    
+    }  
 }
 
 /**
@@ -202,11 +201,8 @@ function terminar() {
                 edadninios.push(element.value);    
             }
         }
-
-
         var objeto = new oHabitacion(numHab, adultosValue, niniosValue, edadninios);
         recibo.push(objeto);
-        
     });
     ocultar();
 }
