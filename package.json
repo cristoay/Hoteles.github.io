@@ -1,0 +1,23 @@
+{
+  "name": "u05-a01_cristo_alvaradoyanes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristoay/cristoay.github.io.git"
+  },
+  "author": "Cristo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristoay/cristoay.github.io/issues"
+  },
+  "homepage": "https://github.com/cristoay/cristoay.github.io#readme",
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
